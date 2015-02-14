@@ -48,6 +48,10 @@ Usage
                   });
     });
 
+Contribution
+---------------
+You are free to add feature you need.
+
 
 Licence
 -----------------
