@@ -1,0 +1,23 @@
+{
+  "name": "angular-mailchimp-subscribe",
+  "main": "mailchimp.js",
+  "version": "0.1.0",
+  "authors": [
+    "Clément Garnier <cle.garnier@gmail.com>"
+  ],
+  "description": "Angular MailChimp subscription module",
+  "keywords": [
+    "mailchimp",
+    "angular",
+    "newsletter"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.irokwa.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
