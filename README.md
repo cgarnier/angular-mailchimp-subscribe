@@ -20,6 +20,7 @@ Usage
   http://<username>.<dc>.list-manage1.com/subscribe/post?u=<key>&id=<id>
 ```
 
+    angular.module('app', ['cg.mailchimp'])
     .config(function (CgMailChimpServiceProvider) {
 
         CgMailChimpServiceProvider.setConfig({
@@ -50,7 +51,7 @@ Usage
 
 Contribution
 ---------------
-You are free to add feature you need.
+Feel free to add feature you need.
 
 
 Licence
