@@ -1,4 +1,4 @@
-angular.module('cg.mailchimp', ['ngResource'])
+angular.module('cg.mailchimp', [])
 
     .provider('CgMailChimpService', function () {
         var config = { username: '', dc: '', u: '', id:''};
