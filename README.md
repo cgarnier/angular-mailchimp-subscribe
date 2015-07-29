@@ -14,10 +14,10 @@ Usage
 
   * config :
 
-  You can retrieve your config form the mailchimp form exemple :
+  You can retrieve your config form the mailchimp form exemple (on your mailchimp account: Lists > select a list > signup forms > embedded form, you will find this kind of uri in the code) :
 
 ```
-  http://<username>.<dc>.list-manage1.com/subscribe/post?u=<key>&id=<id>
+  http://<username>.<dc>.list-manage1.com/subscribe/post?u=<u>&id=<id>
 ```
 
     angular.module('app', ['cg.mailchimp'])
@@ -26,7 +26,7 @@ Usage
         CgMailChimpServiceProvider.setConfig({
                 username: '<username>',
                 dc: '<dc>',
-                u: '<key>',
+                u: '<u>',
                 id:'<id>>'
             });
     })
