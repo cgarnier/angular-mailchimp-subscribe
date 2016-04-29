@@ -9,7 +9,7 @@ angular.module('cg.mailchimp', [])
 
         this.$get = function ($http, $q) {
 
-            var url = 'https://'+ config.username + '.'+config.dc +'.list-manage1.com/subscribe/post-json';
+            var url = 'https://'+ config.username + '.'+config.dc +'.list-manage.com/subscribe/post-json';
 
             return {
                 subscribe: function (data) {
