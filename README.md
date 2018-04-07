@@ -3,7 +3,7 @@ Angular mailchimp subscribe
 
 Easy Mailchimp Subscription module. With no form or jquery bullshit.
 
-Insall
+Install
 ------------
 ```
 bower install angular-mailchimp-subscribe
